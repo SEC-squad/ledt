@@ -147,7 +147,7 @@ def escapeRegExprStr(pattern):
 
 
 
-def tmpfile(pref="sigma-"):
+def tmpfile(pref="sigma-random_"):
 	"""Create and return a temporary file with custom prefix"""
 	return tempfile.NamedTemporaryFile(prefix=pref)
 
